@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const models = require('./model/post')
+const models = require('./models/post')
 const bodyParser = require('body-parser')
 const promBundle = require("express-prom-bundle");
 const config = require('./system-life');
