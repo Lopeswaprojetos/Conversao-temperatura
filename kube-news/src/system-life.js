@@ -11,7 +11,7 @@ let isRead = () => {
 router.get('/ready', (req, res) => {
    
     if (isRead()) {
-        res.statusCode = 100;
+        res.statusCode = 200;
         return res.send('Ok');
     } else {
         res.statusCode = 500;
