@@ -23,7 +23,7 @@ jobs:
            file: ./kube-news/src/Dockerfile
            push: true
            tags: 
-             wangerl/kube-news:${{ github.run_number }}
+             wangerls/kube-news:${{ github.run_number }}
   CD:
       runs-on: ubuntu-latest
       needs: [CI]
