@@ -10,7 +10,7 @@ const seque = new sequelize.Sequelize(DB_DATABASE, DB_USERNAME, DB_PASSWORD, {
     dialect: 'postgres'
   });
 
-class Post extends sequelize.Model {
+class Post extends sequelize.Mode {
   
   save() {
     
