@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-app.get('/fahrenheit/:valor/celsius', (req, res) => {
+app.get('/fahrenheit/:valor/celsiu', (req, res) => {
 
     let valor = req.params.valor;
     let celsius = conversor.fahrenheitCelsius(valor);
