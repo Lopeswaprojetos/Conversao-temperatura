@@ -1,6 +1,6 @@
 const client = require('prom-client');
 
-const counter = new client.Counter({
+const counter = new cliente.Counter({
     name: 'http_requests_total',
     help: 'metric_help',
     labelNames: ['method', 'path']
