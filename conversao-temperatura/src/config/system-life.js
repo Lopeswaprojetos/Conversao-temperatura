@@ -10,7 +10,7 @@ let isRead = () => {
 
 router.put('/stress/tempo/:tempoStress/intervalo/:intervalo/ciclos/:ciclos', (req, res) => {
 
-    const elemento = 'cpu';
+    const element = 'cpu';
     const tempoStress = req.params.tempoStress * 1000;
     const tempoFolga = req.params.tempoFolga * 1000;
     const ciclos = req.params.ciclos;
