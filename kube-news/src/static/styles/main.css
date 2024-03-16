@@ -15,7 +15,7 @@ html {
 body {
   display: flex;
   flex-flow: column;
-  min-height: 100vh;
+  min-height: 10vh;
   background-color: #152037;
   font-family: "Inter", sans-serif;
 }
